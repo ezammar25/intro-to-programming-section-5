@@ -27,7 +27,7 @@ function checkGuess() {
   // Get value from guess input element
   const guess = parseInt(guessInput.value, 10);
   if (guess < 1) {
-    hideAllMessages();
+    hideAllMessages(); 
       resetButton.style.display = 'none';
       rangeCheck.style.display = '';
       rangeCheck.innerHTML = "Must be greater than 0";
